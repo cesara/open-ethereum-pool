@@ -15,21 +15,21 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: 'http://cethpool.xyz/',
+      ApiUrl: 'http://cethpool.vkoskiv.com/',
 
       // APP host
-      AppHost: 'cethpool.xyz:8008',
+      AppHost: 'cethpool.vkoskiv.com:8008',
 
       // HTTP mining endpoint
-      HttpHost: 'http://cethpool.xyz',
+      HttpHost: 'http://cethpool.vkoskiv.com',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'stratum://cethpool.xyz',
+      StratumHost: 'stratum://cethpool.vkoskiv.com',
       StratumPort: 8008,
 
       // Fee and payout details
-      PoolFee: '50%',
+      PoolFee: '39%',
       PayoutThreshold: '10 cTH',
 
       // For network hashrate (change for your favourite fork)
